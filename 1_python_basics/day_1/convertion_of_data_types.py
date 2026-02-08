@@ -17,6 +17,19 @@ print(type(int(b)))#<type 'int'>
 print(type(str(b)))#<type 'str'>
 print(type(bool(b)))#<type 'bool'>
 print(type(complex(b)))#<type 'complex'>
+#--------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
+#converting str data type to other data types
+#first we convert numeric string to other data types
+c="5" # a number in between double quotes is called numeric sting
+print(c) #5
+print(type(c))#<type 'str'>
+print(type(int(c)))#<type 'int'>
+print(type(float(c)))#<type 'float'>
+print(type(bool(c)))#<type 'bool'>
+print(type(complex(c)))#<type 'complex'>
+
+
 
 
 
